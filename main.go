@@ -5,8 +5,13 @@ import (
 	"strings"
 )
 
-func lenAndUpper(name string) (int, string) {
-	return len(name), strings.ToUpper(name)
+func lenAndUpper(name string) (length int, upper_name string) {
+	defer fmt.Println("done?")
+
+	length = len(name)
+	upper_name = strings.ToUpper(name)
+
+	return
 }
 
 func mult(a, b int) int {
@@ -24,7 +29,7 @@ func main() {
 
 	repeatMe("hi", "hello")
 	fmt.Println(mult(2, 2))
-	fmt.Println(lenAndUpper("hello"))
+	fmt.Println(lenAndUpper("hello world"))
 	fmt.Println(name)
 	fmt.Println(name1)
 	fmt.Println(name2)

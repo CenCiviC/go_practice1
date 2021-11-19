@@ -1,0 +1,7 @@
+1. for if switch 모두 c와 비슷하지만
+    그 안에서 변수를 선언 가능하다
+2. pointer는 c와 동일
+3. array는 비슷하나 배열의 크기를 안 정해준 slices가 존재함
+4. maps라는 자료구조, key:value로 이루어짐
+5. 대부분이 struct로 구성됨 이게 class와 비슷
+    type name struct{}로 사용
